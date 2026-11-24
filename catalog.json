@@ -1,40 +1,29 @@
 {
-  "tv": [],
-  "movies": [
+  "anime_sources": [
     {
-      "id": "Sintel",
-      "title": "Sintel",
-      "url": "https://iptv-org.github.io/iptv/categories/animation.m3u",
-      "poster": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/Sintel.jpg",
-      "format": "m3u",
-      "description": "Blender Foundation, CC BY 3.0"
+      "name": "Anime en emisión",
+      "type": "api",
+      "url": "https://api.jikan.moe/v4/seasons/now"
     },
     {
-      "id": "TearsOfSteel",
-      "title": "Tears of Steel",
-      "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4",
-      "poster": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/TearsOfSteel.jpg",
-      "format": "mp4",
-      "description": "Blender Foundation, CC BY 3.0"
-    }
-  ],
-  "series": [],
-  "kids": [
-    {
-      "id": "BigBuckBunny",
-      "title": "Big Buck Bunny",
-      "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
-      "poster": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/BigBuckBunny.jpg",
-      "format": "mp4",
-      "description": "Blender Foundation, CC BY 3.0"
+      "name": "Próximos estrenos",
+      "type": "api",
+      "url": "https://api.jikan.moe/v4/seasons/upcoming"
     },
     {
-      "id": "ElephantsDream",
-      "title": "Elephants Dream",
-      "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
-      "poster": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/ElephantsDream.jpg",
-      "format": "mp4",
-      "description": "Blender Foundation, CC BY 2.5"
+      "name": "Anime popular",
+      "type": "api",
+      "url": "https://api.jikan.moe/v4/top/anime"
+    },
+    {
+      "name": "Kitsu",
+      "type": "api",
+      "url": "https://kitsu.io/api/edge/anime"
+    },
+    {
+      "name": "Animación IPTV",
+      "type": "m3u",
+      "url": "https://iptv-org.github.io/iptv/categories/animation.m3u"
     }
   ]
-}{"tv":[],"movies":[],"series":[],"kids":[]}
+}
