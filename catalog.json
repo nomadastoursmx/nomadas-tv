@@ -4,9 +4,9 @@
     {
       "id": "Sintel",
       "title": "Sintel",
-      "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4",
+      "url": "https://iptv-org.github.io/iptv/categories/animation.m3u",
       "poster": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/Sintel.jpg",
-      "format": "mp4",
+      "format": "m3u",
       "description": "Blender Foundation, CC BY 3.0"
     },
     {
